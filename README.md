@@ -1,4 +1,4 @@
-# HMMvarc
+# vi-HMM
 
 ## Overview
 
@@ -7,19 +7,19 @@ Our methid is coded in MATLAB. It is a novel method for finding SNPs adn Indels 
 
 ## Obtaining and Usage
 
-Unzip the package. Change the current directory in Matlab to the 'HMMvarc' folder containing the code organized into subfolders. In order to run the programs, 'HMMvarc' and its sudirectories have to be added to the path. This can be achieved with the following command at the Matlab prompt
+Unzip the package. Change the current directory in Matlab to the 'vi-HMM' folder containing the code organized into subfolders. In order to run the programs, 'vi-HMM' and its sudirectories have to be added to the path. This can be achieved with the following command at the Matlab prompt
 
 ```
 >> addpath(genpath(pwd))
 
 ```
 
-The data to be analyzed with HMMvarc has to be placed in the folder 'data'. HMMvarc comes already with example data, ref.fa, example.sam and truevar.txt.
+The data to be analyzed with vi-HMM has to be placed in the folder 'data'. HMMvarc comes already with example data, ref.fa, example.sam and truevar.txt.
 
 HMMvarc runs with default transition matrix and heterozygous rate for our example.  For instance:
 
 ```
->> runHMMvarc
+>> runviHMM
 ```
 
 
