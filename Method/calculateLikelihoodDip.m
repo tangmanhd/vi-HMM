@@ -6,7 +6,11 @@ read_real = read_alignseqi(read_alignseqi~=-1);
 qscore_real = quality_alignseqi(read_alignseqi~=-1);
 mapq_real = mapq(read_alignseqi~=-1);
 qscore_realnew = qscore_real;
-qscore_realnew(read_real==5) = mapq_real(read_real==5);
+if isempty(qscore_real(read_real~=5))
+qscore_realnew(read_real==5) = mapq_real(read_real==5)/4;
+else
+qscore_realnew(read_real==5) = mean(qscore_real(read_real~=5))
+end
 sublh=zeros(1,length(read_real));
 
 if size(read_real(read_real==jv(1)),1)==0 && size(read_real(read_real==jv(2)),1)==0

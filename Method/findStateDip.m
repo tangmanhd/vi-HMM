@@ -31,8 +31,7 @@ transitionmatrix(26,:) = transitionmatrix(16,:);
 transitionmatrix(27,:) = transitionmatrix(16,:);
 transitionmatrix(28,:) = transitionmatrix(16,:);
 transitionmatrix(29,:) = transitionmatrix(16,:);
-transitionmatrix(30,30) = transitionmatrix(29,30);
-transitionmatrix(30,1:29) = (1-transitionmatrix(30,30))/29;
+transitionmatrix(30,:) = 1/30;
 
 base_state = zeros(1,size(ref_align,2));
 %hap_base = zeros(1,size(alignmat,2));% store haplotype
