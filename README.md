@@ -14,9 +14,9 @@ Unzip the package. Change the current directory in Matlab to the 'vi-HMM' folder
 
 ```
 
-The data to be analyzed with vi-HMM has to be placed in the folder 'data'. HMMvarc comes already with example data, ref.fa, example.sam and truevar.txt.
+The data to be analyzed with vi-HMM has to be placed in the folder 'data'. vi-HMM comes already with example data, ref.fa, example.sam and truevar.txt.
 
-HMMvarc runs with default transition matrix and heterozygous rate for our example.  For instance:
+vi-HMM runs with default transition matrix and heterozygous rate for our example.  For instance:
 
 ```
 >> runviHMM
