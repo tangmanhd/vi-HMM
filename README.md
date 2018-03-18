@@ -14,7 +14,7 @@ Unzip the package. Change the current directory in Matlab to the 'vi-HMM' folder
 
 ```
 
-The data to be analyzed with vi-HMM has to be placed in the folder 'data'. vi-HMM comes already with example data, ref.fa, example.sam and truevar.txt. The example data comes from our simulaiton, which is based on an HMM with four hidden states: "Match","SNP","Deletion", and "Insertion" with a transition matirx T and emission probabilities (E).
+The data to be analyzed with vi-HMM has to be placed in the folder 'data'. vi-HMM comes already with example data, ref.fa, example.sam and truevar.txt. The example data comes from our simulaiton, which is based on an HMM with four hidden states: "Match","SNP","Deletion", and "Insertion" with a transition matirx T and emission probabilities (E).For more details about data simulation,please to our paper.
 
 ![first equation](https://latex.codecogs.com/gif.latex?T%3D%5Cbegin%7Bbmatrix%7D%200.988%20%26%200.008%20%26%200.002%20%26%200.002%20%5C%5C%200.53%26%200.45%20%26%200.01%20%26%200.01%20%5C%5C%200.7%20%26%200.15%20%260.15%20%26%200%20%5C%5C%200.7%26%200.15%20%26%200%20%26%200.15%20%5Cend%7Bbmatrix%7D)
 
