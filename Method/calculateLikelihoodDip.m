@@ -9,7 +9,7 @@ qscore_realnew = qscore_real;
 if isempty(qscore_real(read_real~=5))
 qscore_realnew(read_real==5) = mapq_real(read_real==5)/4;
 else
-qscore_realnew(read_real==5) = mean(qscore_real(read_real~=5))
+qscore_realnew(read_real==5) = mean(qscore_real(read_real~=5));
 end
 sublh=zeros(1,length(read_real));
 
